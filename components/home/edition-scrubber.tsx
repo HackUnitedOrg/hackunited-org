@@ -14,9 +14,13 @@ import { hackathons, type HackathonStat } from "./data";
 
 const participants = hackathons.map((h) => parseInt(h.stats[0].value.replace(/\D/g, ""), 10));
 const peak = Math.max(...participants);
+// "August 4 - August 6, 2023" -> "Aug 4–6, 2023"; spans across months keep both: "Aug 30–Sep 1, 2023"
 const shortDate = (date: string) => {
-  const [month, year] = date.split(" ");
-  return `${month.slice(0, 3)} ${year}`;
+  const m = date.match(/^(\w+) (\d+) - (\w+) (\d+), (\d{4})$/);
+  if (!m) return date;
+  const [, m1, d1, m2, d2, year] = m;
+  const end = m1 === m2 ? d2 : `${m2.slice(0, 3)} ${d2}`;
+  return `${m1.slice(0, 3)} ${d1}–${end}, ${year}`;
 };
 
 function Stat({ stat }: { stat: HackathonStat }) {

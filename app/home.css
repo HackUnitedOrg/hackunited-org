@@ -573,6 +573,7 @@ html.light .hu-globe-wrap {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hu-fg-3);
+  white-space: nowrap;
 }
 
 .hu-ed-col[data-active] .hu-ed-tick strong {
