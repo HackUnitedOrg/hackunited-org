@@ -183,10 +183,12 @@ export default function EditionScrubber() {
             )}
 
             <div className="mt-auto flex flex-wrap gap-3 pt-8">
-              <a href={h.recap} target="_blank" rel="noopener noreferrer" className="hu-btn">
-                Article Recap
-                <ArrowRight className="h-4 w-4" />
-              </a>
+              {h.recap && (
+                <a href={h.recap} target="_blank" rel="noopener noreferrer" className="hu-btn">
+                  Article Recap
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              )}
               <a href={h.devpost} target="_blank" rel="noopener noreferrer" className="hu-btn hu-btn-ghost">
                 Devpost
                 <ArrowUpRight className="h-4 w-4" />

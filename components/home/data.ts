@@ -91,7 +91,7 @@ export type Hackathon = {
   alt: string;
   badge: string;
   caption: string;
-  recap: string;
+  recap?: string;
   devpost: string;
 };
 
@@ -247,5 +247,27 @@ export const hackathons: Hackathon[] = [
     caption: "Featuring winning projects from our human interaction themed hackathon.",
     recap: "https://blog.hackunited.org/united-hacks-v6-hackathon-recap",
     devpost: "https://unitedhacksv6.devpost.com/",
+  },
+  {
+    value: "v7",
+    label: "V7",
+    title: "United Hacks V7",
+    date: "July 10 - July 12, 2026",
+    theme: "Sports Theme",
+    description:
+      "Our seventh hackathon focused on sports, with a general track open to any idea, bringing together 1250+ participants to build projects from AI dev tools to football archives and referee networks.",
+    stats: [
+      { value: "1250+", label: "Participants" },
+      { value: "2", label: "Tracks" },
+    ],
+    feature: {
+      title: "Sports + General Tracks",
+      detail: "Build for the sports theme or bring any idea",
+    },
+    image: "/images/v7.webp",
+    alt: "United Hacks V7 winning projects",
+    badge: "Sports",
+    caption: "Featuring winning projects from our sports themed hackathon.",
+    devpost: "https://unitedhacksv7.devpost.com/",
   },
 ];
