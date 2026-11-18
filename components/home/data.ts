@@ -100,7 +100,7 @@ export const hackathons: Hackathon[] = [
     value: "v1",
     label: "V1",
     title: "United Hacks V1",
-    date: "August 2023",
+    date: "August 4 - August 6, 2023",
     theme: "Mental Health Theme",
     description:
       "Our inaugural hackathon focused on mental health solutions, bringing together 400+ participants to create impactful projects with industry professional judges.",
@@ -126,7 +126,7 @@ export const hackathons: Hackathon[] = [
     value: "v2",
     label: "V2",
     title: "United Hacks V2",
-    date: "January 2024",
+    date: "January 12 - January 14, 2024",
     theme: "Resolutions Theme",
     description:
       "Our second hackathon focused on New Year resolutions and positive change, featuring 400+ participants and the largest prize pool to date with industry professional & student judges.",
@@ -151,7 +151,7 @@ export const hackathons: Hackathon[] = [
     value: "v3",
     label: "V3",
     title: "United Hacks V3",
-    date: "September 2024",
+    date: "September 6 - September 8, 2024",
     theme: "Communication Theme",
     description:
       'Our third hackathon introduced "Mini-Hacks" with a focus on communication solutions, featuring 150+ participants and industry professional judges in a more intimate setting.',
@@ -176,7 +176,7 @@ export const hackathons: Hackathon[] = [
     value: "v4",
     label: "V4",
     title: "United Hacks V4",
-    date: "January 2025",
+    date: "January 17 - January 19, 2025",
     theme: "Social Impact Theme",
     description:
       "Our most recent hackathon focused on social impact solutions, bringing together 400+ participants to tackle real-world challenges with industry professional judges.",
@@ -202,7 +202,7 @@ export const hackathons: Hackathon[] = [
     value: "v5",
     label: "V5",
     title: "United Hacks V5",
-    date: "July 2025",
+    date: "July 11 - July 13, 2025",
     theme: "Entertainment Theme",
     description:
       "Our fifth hackathon focused on entertainment solutions, bringing together 1250+ participants to tackle real-world challenges with industry professional judges.",
@@ -227,7 +227,7 @@ export const hackathons: Hackathon[] = [
     value: "v6",
     label: "V6",
     title: "United Hacks V6",
-    date: "January 2026",
+    date: "January 16 - January 18, 2026",
     theme: "Human Interaction Theme",
     description:
       "Our sixth hackathon focused on solutions embracing human interaction, bringing together 1200+ participants to tackle real-world challenges, while connecting in our Discord community of 3000+ programmers.",
