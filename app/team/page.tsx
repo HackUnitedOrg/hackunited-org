@@ -111,6 +111,21 @@ const membersTeam: TeamMember[] = [
     position: "Project Manager",
     image: "/images/team-images/joey.png",
   },
+  {
+    name: "Shrey Jain",
+    position: "Lead R&D",
+    image: "/images/team-images/shrey.png",
+  },
+  {
+    name: "Olwethu Dlamini",
+    position: "Research & Development",
+    image: "/images/team-images/olwethu.png",
+  },
+  {
+    name: "Zachary Tang",
+    position: "Partnerships & Marketing",
+    image: "/images/team-images/zachary.png",
+  },
 ];
 
 const otherMembers = [...headsTeam, ...membersTeam];
@@ -120,16 +135,6 @@ const otherMembers = [...headsTeam, ...membersTeam];
 const previousVolunteers: TeamMember[][] = [
   // Row 1
   [
-    {
-      name: "Olwethu Dlamini",
-      position: "Research & Development",
-      image: "/images/team-images/olwethu.png",
-    },
-    {
-      name: "Zachary Tang",
-      position: "Partnerships & Marketing",
-      image: "/images/team-images/zachary.png",
-    },
     {
       name: "Shruti G.",
       position: "Marketing",
